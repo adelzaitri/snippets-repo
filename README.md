@@ -26,6 +26,17 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+Javascript
+
+```javascript {cmd="node"}
+const date = Date.now()
+console.log(date.toString())
+```
+Python
+
+```python {cmd="/usr/local/bin/python3"}
+print("This will run python3 program")
+```
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
@@ -37,11 +48,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 
-```javascript {cmd="node"}
-const date = Date.now()
-console.log(date.toString())
-```
-
-```python {cmd="/usr/local/bin/python3"}
-print("This will run python3 program")
-```

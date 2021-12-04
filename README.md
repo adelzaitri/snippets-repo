@@ -26,17 +26,21 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-Javascript
-
-```javascript {cmd="node"}
-const date = Date.now()
-console.log(date.toString())
-```
 Python
 
-```python {cmd="/usr/local/bin/python3"}
+```python
 print("This will run python3 program")
 ```
+
+Ruby
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes

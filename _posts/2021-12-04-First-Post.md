@@ -1,9 +1,7 @@
 ---
-title: Another Sample Page
-published: false
+title: First Post
+published: true
 ---
-
-Test post:
 
 ### Markdown
 
